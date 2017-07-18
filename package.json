@@ -1,0 +1,23 @@
+{
+  "name": "csv-to-array-of-arrays",
+  "version": "1.0.0",
+  "description": "Command line utility to transform csv file to an array of string arrays",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "array",
+    "transform",
+    "file"
+  ],
+  "author": "BogdanCar",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "csvtoaoa": "csvtoaoa.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
